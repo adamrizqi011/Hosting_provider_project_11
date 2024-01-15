@@ -1,12 +1,5 @@
 @media only screen and (max-width: 1240px) {
-  nav ul li,
-  nav ul button {
-    display: none;
-  }
-  nav ul li.menu {
-    display: block;
-    color: var(--black-color-gray);
-  }
+
   .imageWithTextBox .marginBox .contentBox h2 {
     font-size: 36px;
   }
@@ -16,6 +9,33 @@
   .priceBoxSection .priceBox {
     width: 50%;
   }
+  .card .tools .card__content .buttonone{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .btn23{
+    display: flex;
+    justify-content: center;
+  }
+  .txtcenter{
+    text-align: center;
+   }
+
+   .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .footertext{
+    text-align: center;
+   }
+
+   .cardset .cardinfo{
+    margin: 50px;
+   }
+
 }
 @media only screen and (max-width: 1024px) {
   .imageWithTextBox .marginBox {
@@ -70,10 +90,38 @@
   .imageWithTextBox .marginBox .imageBox img {
     width: 50%;
   } */
+  .card{
+    justify-content: center;
+  }
+ 
+  .container .btn-23{
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  .btn23{
+    display: flex;
+    justify-content: center;
+  }
+  .txtcenter{
+    text-align: center;
+   }
+
+   .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .footertext{
+    text-align: center;
+   }
+
 }
 @media only screen and (max-width: 768px) {
   .imageWithTextBox .marginBox .imageBox,
-  .imageWithTextBox .marginBox .contentBox {
+  .imageWithTextBox .marginBox .contentBox{
     width: 100%;
   }
   .ourServicesSection .mainBox .servicesBoxes,
@@ -98,9 +146,32 @@
     height: 100%;
     width: 100%; */
     top: 85%;
-    left: 50%;
     transform: translate(-85%, -50%);
   }
+  
+  .card{
+    justify-content: center;
+  }
+
+  .btn23{
+    display: flex;
+    justify-content: center;
+  }
+  .txtcenter{
+    text-align: center;
+   }
+
+   .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .footertext{
+    text-align: center;
+   }
+
+
 }
 @media only screen and (max-width: 575px) {
   .customerFeedBackSection .heading p {
@@ -113,6 +184,26 @@
   .highLightSection .leftBox p {
     font-size: 18px;
   }
+  .card{
+    justify-content: center;
+  }
+  .btn23{
+    display: flex;
+    justify-content: center;
+  }
+  .txtcenter{
+    text-align: center;
+   }
+
+   .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footertext{
+    text-align: center;
+   }
 }
 @media only screen and (max-width: 475px) {
   .ourServiceHead h2,
@@ -152,4 +243,25 @@
     width: 50%;
     margin-bottom: 10px;
   }
+  .card{
+    justify-content: center;
+  }
+  .btn23{
+    display: flex;
+    justify-content: center;
+  }
+  .txtcenter{
+    text-align: center;
+   }
+
+   .testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .footertext{
+    text-align: center;
+   }
+ 
 }
