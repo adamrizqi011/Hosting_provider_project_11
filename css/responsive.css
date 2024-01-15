@@ -28,13 +28,11 @@
     align-items: center;
    }
 
-   .footertext{
-    text-align: center;
+   .cardset .cardinfo{
+    margin: 40px;
    }
 
-   .cardset .cardinfo{
-    margin: 50px;
-   }
+ 
 
 }
 @media only screen and (max-width: 1024px) {
@@ -66,10 +64,7 @@
   .ourServicesSection .mainBox .servicesBoxes p {
     width: 90%;
   }
-  .highLightSection .leftBox h2,
-  .highLightSection .leftBox p {
-    width: 80%;
-  }
+ 
   .footerLogo {
     width: 40%;
   }
@@ -114,8 +109,9 @@
     align-items: center;
    }
 
-   .footertext{
-    text-align: center;
+
+   .cardset .cardinfo{
+    margin: 50px;
    }
 
 }
@@ -128,8 +124,7 @@
   .ourServicesSection .mainBox .servicesBoxes p,
   .priceBoxSection .priceBox,
   .mainFeedBackBox .boxes,
-  .highLightSection .leftBox h2,
-  .highLightSection .leftBox p,
+ 
   .footerLogo,
   .footerLogo p,
   .middleBox {
@@ -147,6 +142,7 @@
     width: 100%; */
     top: 85%;
     transform: translate(-85%, -50%);
+
   }
   
   .card{
@@ -167,8 +163,8 @@
     align-items: center;
    }
 
-   .footertext{
-    text-align: center;
+   .cardset .cardinfo{
+    margin: 50px;
    }
 
 
@@ -177,13 +173,7 @@
   .customerFeedBackSection .heading p {
     width: 100%;
   }
-  .highLightSection .leftBox h2,
-  .highLightSection .leftBox p {
-    font-size: 28px;
-  }
-  .highLightSection .leftBox p {
-    font-size: 18px;
-  }
+
   .card{
     justify-content: center;
   }
@@ -201,9 +191,13 @@
     align-items: center;
   }
 
-  .footertext{
-    text-align: center;
+ 
+   .cardset .cardinfo{
+    margin: 50px;
    }
+
+
+
 }
 @media only screen and (max-width: 475px) {
   .ourServiceHead h2,
@@ -262,6 +256,14 @@
 
    .footertext{
     text-align: center;
+    display: flex;
    }
+
+   .cardset .cardinfo{
+    margin: 50px;
+   }
+
+
  
+
 }
