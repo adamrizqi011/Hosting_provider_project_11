@@ -1,5 +1,3 @@
-# Hi , I'm Adam
-
 # Website Create
 
 - HTML & CSS
